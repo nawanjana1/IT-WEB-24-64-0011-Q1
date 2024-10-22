@@ -1,0 +1,281 @@
+.navbar-brand {
+    color: rgb(69, 80, 240);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.navbar-brand:hover{
+    color: rgb(10, 10, 164);
+}
+.navbar {
+    width: 100%;
+}
+.navbar-bg{
+    background-color: white;
+}
+
+.round-button{
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 13px;
+    background-color: #f4f4f4;
+    color: rgb(69, 80, 240);
+    margin-right: 50px;
+}
+
+.round-button2 {
+    border-radius: 50px;
+    background-color: rgb(69, 80, 240);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lead{
+    font-family: 'Poppins', sans-serif;
+    color: #777;
+    font-size: 18px;
+}
+
+.hero-section{
+background-color: white;
+}
+
+.hero-section h1 {
+    font-family: 'Poppins',sans-serif;
+}
+.hero-section p {
+    color: #777;
+}
+.hero-section img{
+    max-width: 100%;
+    height: auto;
+}
+
+.form-control {
+    max-width: 400px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: #777;
+}
+.text-center {
+    text-align: center;
+}
+.card-header {
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.card {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.card1 {
+    background-color: rgb(69, 80, 240);
+    color: #f4f4f4;
+    border-radius: 15px;
+    margin-top: -30px;
+}
+
+.card2 {
+    background-color: #f4f4f4;
+    color: black;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.card3 {
+    background-color: #ffd88c;
+    color: black;
+    border-radius: 15px;
+    margin-top: -10px;
+}
+
+.phara{
+    font-family: 'Poppins',sans-serif;
+    color: #777;
+    font-size: 18px;
+}
+
+.learn-title{
+    font-size: 40px;
+}
+.custom-section {
+    padding: 20px 0;
+}
+.custom-title {
+    font-size: 40px;
+}
+.custom-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-para {
+
+    color: #777;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+}
+
+.custom-img {
+    max-width: 100%;
+    height: auto;
+}
+.store-icons img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+.trust-section {
+    margin: 50px 0;
+    margin-bottom: 150px;
+}
+
+.trust-section img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.trust-section h1 {
+    color: rgb(69, 80, 240);
+    font-weight: bold;
+    margin: 0 20px;
+    transform: translateX(200px);
+}
+.trust-section p {
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.left-image {
+    transform: translateX(-100px) translateY(-30px);
+}
+
+.right-image {
+    transform: translateX(200px) translateY(100px);
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.trust-section .mx-3 {
+    display: inline-block;
+    line-height: 150px;
+}
+
+.responsive-text {
+    font-size: 70px;
+}
+
+.trust-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .trust-section img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .trust-section h1 {
+        font-size: 2rem;
+        margin: 0 5px;
+    }
+
+    .left-image {
+
+        transform: translateX(-10px);
+    }
+
+    .right-image {
+        transform: translateX(10px) translateY(5px);
+    }
+}
+
+@media (max-width: 576px) {
+
+    .trust-section img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .trust-section h1 {
+        font-size: 1.5rem;
+        margin: 0 5px;
+    }
+
+    .left-image, .right-image {
+        transform: none;
+    }
+
+    .trust-section .d-flex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .trust-section img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .trust-section h1 {
+        font-size: 1.2rem;
+        margin: 0 2px;
+    }
+
+    .trust-section p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .trust-section img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .trust-section h1 {
+        font-size: 1rem;
+        margin: 0 1px;
+    }
+
+    .trust-section p {
+        font-size: 15px;
+    }
+}
+
+.round-button3 {
+    border-radius: 50px;
+    background-color: rgb(69, 80, 240);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-para {
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.round-button4 {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: rgb(69, 80, 240);
+}
+
+.footer {
+    margin-bottom: 50px;
+}
+.title {
+    font-size: 40px;
+    
+}

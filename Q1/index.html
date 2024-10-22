@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskia - Task Management</title>
+
+    <!-- Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!--CSS-->
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!--Header Section -->
+
+    <div class="container-fluid p-0">
+        <header class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-bg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">Taskia</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="btn btn-primary round-button">Try Free</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    
+
+    <!--Hero Section-->
+
+
+    <section class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 text center text-lg-start">
+            <h1 class="display-4 fw-bold">Task management and lists Tool</h1>
+            <p class="lead">We believe that designing products and services in close partnership with our clients is the only way to have a real impact on their business.</p>
+            <form id="Myform1" class="mt-4 row gx-2">
+                <div class="col-12 col-md-9">
+                <input type="email" class="form-control form-control-lg" placeholder="Name@company.com" required>
+            </div>
+            <div class="col-12 col-md-3 mt-2 mt-md-0">
+                <button type="submit" class="btn btn-primary btn-lg w-100 round-button4">Try it free</button>
+            </div>
+            </form>
+
+            <!--js validation-->
+
+<script>
+    document.getElementById('MyForm1').addEventListener('submit', function (event) {
+        event.preventDefault();
+        const emailInput = document.getElementById('email');
+        const errorMessage = document.getElementById('error-message');
+        if (emailInput.value.trim() ==='') {
+            errorMessage.style.display = 'block';
+        } else {
+            errorMessage.style.display = 'none';
+            console.log('Form submitted with email:', emailInput.value);
+        }
+        });
+</script>
+</div>
+            <div class="col-lg-6 col-md-12 text-center mt-4 mt-lg-0">
+                <img src="Images/hero image.jpg" alt="Hero Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Services section-->
+<section>
+    <div class="container">
+        <h1 class="card-header text-center">Featured Service that We Provide</h1>
+        <div class="row justify-content-center g-2"> 
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card text-center card1">
+                    <div class="card-body">
+
+            <!--Service Card 1 -->
+                <img src="Images/Image 3.png" class="card-img-top mb-3" alt="Service 1">
+                <h5 class="card-title">Keep tasks in one place</h5>
+                <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+            </div>
+        </div>
+    </div>
+
+            <!--Service Card 2-->
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card text-center card2">
+                    <div class="card-body">
+                <img src="Images/Image 2.png" class="card-img-top mb-3" alt="Service 2">
+                <h5 class="card-title">Keep tasks in one place</h5>
+                <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule</p>
+            </div>
+        </div>
+    </div>
+
+            <!--Service Card 3-->
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card text-center card3">
+                    <div class="card-body">
+                <img src="Images/Image 1.png" class="card-img-top mb-3" alt="Service 3">
+                <h5 class="card-title">Keep tasks in one place</h5>
+                <p class="card-text">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+    <!-- Task Management Section -->
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 text-center mt-4 mt-lg-0">
+                    <img src="Images/Image 8.jpg" alt="Task Management App Mockup" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-12 text-center text-lg-start">
+            <h1 class="learn-title fw-bold">Why do you need task management</h1>
+            <p class="phara">Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? 
+                Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.
+            </p>
+           <button type="submit" class="btn btn-primary btn-lg round-button3">Learn More</button>
+            </div>
+        </div>          
+     </div>
+</section>
+
+    <!-- Seamless Team Workflow Section -->
+
+
+<section class="custom-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 custom-text">
+        <h2 class="custom-title fw-bold">Seamless Team Workflow & Efficient</h2>
+        <p class="custom-para">Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first?
+            Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.
+        </p>
+        <div class="store-icons mt-4">
+            <a href="https://apps.apple.com/app/idYOUR_APP_ID">
+            <img src="Images/Image 6.jpg" alt="Apple Store"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.yourcompany.yourapp">
+            <img src="Images/Image 9.jpg" alt="Google Play"></a>
+        </div>
+    </div>
+        <div class="col-md-6 text-center">
+            <img src="Images/Image 7.jpg" alt="right side image" class="custom-img">
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Trust Us Section -->
+
+<div class="container trust-section">
+<div class="row justify-content-center">
+    <div class="col-12 text-center">
+    <p class="trust-title">Trust us and feel free to try our services</p>
+</div>
+    <div class="col-12 d-flex flex-wrap justify-content-center align-items-center">
+
+        <img src="Images/Image 4.jpg" alt="User1" class="mx-3 left-image img-fluid"> 
+        <h1 class="responsive-text">100 000</h1>
+
+        <img src="Images/Image 5.jpg" alt="User2" class="mx-3 right-image img-fluid">
+    </div>
+</div>
+</div>
+
+
+
+<!-- Call to Action Section -->
+
+
+<hr>
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-6 col-md-12">
+
+    <h1 class="title fw-bold">Get better work done</h1>
+    <p class="footer-para">See why millions of people across 195 countries use Dash.</p>
+    <form id="myForm" class="mt-4 row gx-2">
+        <div class="col-12 col-md-9">
+        <input id="email" type="email" class="form-control form-control-lg" placeholder="Name@company.com" required>
+    </div>
+    <div class="col-12 col-md-3 mt-2 mt-md-0">
+        <button type="submit" class="btn btn-primary btn-lg w-100 round-button4">Try it free</button>
+    </div>
+    </form>
+
+<!--JS Validation-->
+
+<script>
+    document.getElementById('myForm').addEventListener('submit', function(event){
+        event.preventDefault();
+        const emailInput = document.getElementById('email');
+        const errorMessage = document.getElementById('error-message');
+        if (emailInput.value.trim()==='') {
+            errorMessage.style.display = 'block';
+
+        } else {
+            errorMessage.style.display = 'none';
+            console.log('Form submitted with email:', emailInput.value);
+        }
+    });
+</script>
+</div>
+</div>
+</div>
+
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</footer>
+</body>
+</html>
